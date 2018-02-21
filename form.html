@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="main">
+                <form class="form" id="regForm" method="post" action="userdata.html">
+                    <h2>Registration Form</h2>
+                    <div>
+                        <label>First Name :</label>
+                        <input type="text" name="fname" id="fName" placeholder="Enter first name">
+                        <p><span class="error" id="fName_error">First name is required</span></p>
+                    </div>
+                    <div>
+                        <label>Last Name :</label>
+                        <input type="text" name="lname" id="lName" placeholder="Enter last name">
+                        <p><span class="error" id="lName_error">This field is required</span></p>
+                    </div>
+                    <div>
+                        <label>Email :</label>
+                        <input type="email" name="email" id="email" placeholder="Enter email">
+                        <p><span class="error" id="email_error">Valid email is required</span></p>
+                    </div>
+                    <div>
+                        <label>Confirm Email :</label>
+                        <input type="email" name="cemail" id="confirmEmail" placeholder="Re-enter email">
+                        <p><span class="error" id="confirmEmail_error">Valid email is required and should match email field</span>
+                        </p>
+                    </div>
+                    <div>
+                        <label>Gender :</label>
+                        <label><input type="radio" name="gender" checked>Male</label>
+                        <label><input type="radio" name="gender">Female</label><br><br><br>
+                    </div>
+                    <div>
+                        <label>Phone :</label>
+                        <input type="text" name="phone" id="phone" placeholder="Enter phone no.">
+                        <p><span class="error"
+                                 id="phone_error">Phone no. is required and should be 10 digit number</span></p>
+                    </div>
+                    <div>
+                        <input type="submit" name="register" id="register" value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="validate.js"></script>
+</body>
+</html>

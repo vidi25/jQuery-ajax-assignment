@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+}
+
+div.container {
+    font-family: 'Droid Serif', serif;
+    position: relative;
+}
+
+div.main {
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+input[type=text], [type=email] {
+    width: 97.7%;
+    height: 34px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    border: 2px solid;
+    color: #4f4f4f;
+    font-size: 16px;
+}
+
+label {
+    color: #464646;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#register {
+    font-size: 20px;
+    margin-top: 15px;
+    border: 1px solid #0F799E;
+    padding: 7px 35px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#register:hover {
+    background: linear-gradient(#36caf0 5%, #22abe9 100%);
+}
+
+.error {
+    display: none;
+    margin-left: 10px;
+    color: red;
+}
+
+#regForm {
+    border: solid black 2px;
+    padding-bottom: 3vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    background: lightcyan;
+}
+
+
